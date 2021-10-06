@@ -12,6 +12,7 @@
     "build": "webpack && tsc -p ./src/awrtc",
     "watch": "webpack --watch",
     "clean": "shx rm -rf ./build/awrtc ./build/bundle"
+    "start": "node server.js",
   },
   "files": [
     "build",
